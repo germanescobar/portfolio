@@ -1,0 +1,110 @@
+body {
+  background: #303038;
+  color: #484848;
+}
+
+h1, h2 { font-family: 'Yanone Kaffeesatz', sans-serif; }
+
+h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 300;
+  margin: 20px 0 0;
+  text-align: center;
+  line-height: 1;
+}
+h1 span { 
+  letter-spacing: 1px;
+  display: block;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  margin: 10px 0 30px;
+}
+
+p, li {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+li { font-weight: 300; }
+
+.wrapper {
+  background: whitesmoke;
+
+  margin: 40px auto 40px;
+}
+
+section {
+  padding: 10px;
+}
+
+.red-section {
+  background: #eb1559;
+  color: white;
+}
+
+.purple-section {
+  background: #358C35;
+  color: white;
+}
+
+.blue-section {
+  background: #2571DB;
+  color: white;
+}
+
+img.elibom {
+  float: left;
+  width: 150px;
+  padding: 0 20px 10px 0;
+}
+
+img.book {
+  float: left;
+  width: 110px;
+  padding: 10px 40px 10px 20px; 
+}
+
+a { 
+  color: #eb1559;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 768px;
+  }
+
+  section {
+    padding: 30px 60px 60px;
+  }
+
+  h2 { 
+    font-size: 48px; 
+    margin: 20px 0 60px;
+  }
+
+  img.elibom {
+    width: 300px;
+    padding: 0 40px 10px 0;
+  }
+
+  p, li {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    width: 992px;
+  }
+
+  p, li {
+    font-size: 21px;
+  }
+}
